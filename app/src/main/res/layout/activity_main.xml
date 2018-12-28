@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="40dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="310dp"
+        android:layout_height="60dip"
+        android:layout_gravity="center"
+        android:background="@drawable/white_bg"
+        android:editable="false"
+        android:gravity="right" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="61dp">          <!-- 代表水平排布 -->
+
+        <Button
+            android:id="@+id/btClear"
+
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:background="@drawable/white_select"
+            android:text="C"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btDel"
+
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/white_select"
+            android:text="DEL"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btDivide"
+
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/white_select"
+            android:text="/"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btMul"
+
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/white_select"
+            android:text="*"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="121dp">
+
+        <Button
+            android:id="@+id/btSeven"
+
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:background="@drawable/white_select"
+            android:text="7"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btEight"
+
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/white_select"
+            android:text="8"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btNine"
+
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/white_select"
+            android:text="9"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btJian"
+
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/white_select"
+            android:text="-"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="188dp">
+
+        <Button
+            android:id="@+id/btFour"
+
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:background="@drawable/white_select"
+            android:text="4"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btFive"
+
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/white_select"
+            android:text="5"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btSix"
+
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/white_select"
+            android:text="6"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btJia"
+
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/white_select"
+            android:text="+"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="248dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btOne"
+
+                    android:layout_width="75dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/white_select"
+                    android:text="1"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btTwo"
+
+                    android:layout_width="75dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/white_select"
+                    android:text="2"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btThree"
+
+                    android:layout_width="75dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/white_select"
+                    android:text="3"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btZero"
+
+                    android:layout_width="155dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/white_select"
+                    android:text="0"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btPoint"
+
+                    android:layout_width="75dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/white_select"
+                    android:text="."
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btEqu"
+            android:layout_width="75dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/orange_select"
+            android:gravity="center"
+            android:text="="
+            android:textSize="20sp"></Button>
+    </LinearLayout>
+</LinearLayout>
+
